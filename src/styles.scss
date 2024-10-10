@@ -1,0 +1,85 @@
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+body{  
+
+    font-family: "Pragati Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  // .pragati-narrow-bold {
+  //   font-family: "Pragati Narrow", sans-serif;
+  //   font-weight: 700;
+  //   font-style: normal;
+  // }
+  
+    background-color: #26355D;
+}
+
+
+.cn-custom{
+    padding: 2rem;
+    background-color: #192443;
+    border-radius: 8px;
+    height: 47rem;
+    box-shadow: 4px 8px 10px #030d29;
+}
+
+.btn-custom{
+  
+    font-family: "Pragati Narrow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: transparent;
+    width: 18rem;
+    border: 2px solid #FFDB00;
+    color: #FFDB00;
+    padding: 2rem 6rem;
+    border-radius: 4px;
+  
+    &:hover{
+      background-color: #FFDB00;
+      color: white;
+      transition: all 0.8s ease;
+      transform: scale(1.05);
+      box-shadow: 4px 8px 10px #ffdd008f;
+    }
+    &:active{
+      background-color: #FFDB00;
+      color: white;
+      border: 3px solid white;
+    }
+  }
+
+  h2{
+    font-weight: bold;
+    color: #FFDB00;
+    text-shadow: 2px 3px 12px #ffdd00d5 ;
+  }
+
+section{
+  border-radius: 4px;
+  display: flex;
+  width: 48rem;
+  height: 26.875rem;
+  box-shadow: 2px 2px 12px #ffdd00d5 ;
+}
+
+section img{
+  border-radius: 2px;
+  width: 0rem;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+  &:hover{
+   
+    width: 18.75rem;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Pragati Narrow, "Helvetica Neue", sans-serif; }
