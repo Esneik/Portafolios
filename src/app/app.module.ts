@@ -8,7 +8,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { CenterComponent } from './center/center.component';
 import { FooterComponent } from './footer/footer.component';
-import { ProyectsComponent } from './proyects/proyects.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { CVComponent } from './cv/cv.component';
+import { CertificationsComponent } from './certifications/certifications.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { ProyectsComponent } from './proyects/proyects.component';
     HeaderComponent,
     CenterComponent,
     FooterComponent,
-    ProyectsComponent
+    ProjectsComponent,
+    CVComponent,
+    CertificationsComponent,
+    ContactsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

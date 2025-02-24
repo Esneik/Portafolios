@@ -18,10 +18,11 @@ body{
 
 
 .cn-custom{
-    padding: 2rem;
+    padding: 4rem;
     background-color: #192443;
     border-radius: 8px;
     height: 21.5rem;
+    width: 50rem;
     box-shadow: 4px 8px 10px #030d29;
 }
 
@@ -30,7 +31,7 @@ body{
     font-weight: 600;
     font-style: normal;
     background-color: transparent;
-    width: 18rem;
+    width: 19rem;
     border: 2px solid #FFDB00;
     color: #FFDB00;
     padding: 2rem 6rem;
@@ -48,6 +49,23 @@ body{
       color: white;
       border: 3px solid white;
     }
+     // Estilos del SVG dentro del botón
+     svg {
+      transform: translateX(3px);
+      g {
+          stroke: #FFDB00; // Color inicial
+      }
+  }
+
+  &:hover {
+      svg {
+
+          g {
+            transition: all 0.8s ease;
+              stroke: white; // Cambio de color al pasar el mouse
+          }
+      }
+  } 
   }
 
   h2{
@@ -60,7 +78,7 @@ section{
   border-radius: 4px;
   display: flex;
   width: 38rem;
-  height: 16rem;
+  height: 15rem;
   box-shadow: 2px 2px 4px 2px #cccccc67;
 }
 
@@ -80,8 +98,8 @@ section img{
 }
 
 .avatar{
-  width: 16.25rem;         /* Ancho deseado */
-  height: 16.25rem;        /* Alto deseado */
+  width: 14rem;         /* Ancho deseado */
+  height: 14rem;        /* Alto deseado */
   border-radius: 50%;   /* Hace que la imagen sea redonda */
   object-fit: cover;    /* Mantiene la imagen ajustada y centrada */
   border: 3px solid #ccc; /* Borde opcional */
@@ -136,12 +154,13 @@ section img{
 }
 
 .biography{
-  font-size: 1rem;
+  font-size: 0.95rem;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 500;
   color: #FFDB00;
   font-family:Arial, Helvetica, sans-serif;
 }
 
+s
 html, body { height: 100%; }
 body { margin: 0;  }
