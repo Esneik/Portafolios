@@ -7,7 +7,7 @@ import { CertificationsComponent } from './certifications/certifications.compone
 import { ContactsComponent } from './contacts/contacts.component';
 
 const routes: Routes = [
-  { path:'', component: PrincipalComponent},
+  {path:'', component: PrincipalComponent},
   {path:'Projects', component: ProjectsComponent},
   {path:'CV',  component: CVComponent},
   {path:'Certifications', component: CertificationsComponent},

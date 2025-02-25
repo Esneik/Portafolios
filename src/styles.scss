@@ -40,14 +40,17 @@ body{
     &:hover{
       background-color: #FFDB00;
       color: white;
-      transition: all 0.8s ease;
+      transition: all 0.5s ease;
       transform: scale(1.05);
       box-shadow: 4px 8px 10px #ffdd008f;
     }
     &:active{
-      background-color: #FFDB00;
+      background-color: #ffdd00b0;
       color: white;
-      border: 3px solid white;
+      border: #ffdd00b0;
+      cursor: pointer;
+      transition: all 2ms ease;
+      transform: scale(0.95);
     }
      // Estilos del SVG dentro del botón
      svg {
@@ -61,7 +64,7 @@ body{
       svg {
 
           g {
-            transition: all 0.8s ease;
+            transition: all 0.5s ease;
               stroke: white; // Cambio de color al pasar el mouse
           }
       }
@@ -161,6 +164,191 @@ section img{
   font-family:Arial, Helvetica, sans-serif;
 }
 
-s
+
+.btn-angular{
+    font-family: "Pragati Narrow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: transparent;
+    width: 11rem;
+    border: 2px solid #b70000;
+    color: #ce0505;
+    padding: 2rem 2rem;
+    border-radius: 4px;
+    box-shadow: 4px 8px 10px #030d29;
+    &:hover{
+      background-color: #ce0505;
+      color: white;
+      transition: all 0.5s ease;
+      transform: scale(1.05);
+      box-shadow: 4px 8px 10px #ce0505ba;
+    }
+    &:active{
+      background-color: #ce05059a;
+      color: white;
+      border: #ce05059a;
+      cursor: pointer;
+      transition: all 2ms ease;
+      transform: scale(0.95);
+    }
+     // Estilos del SVG dentro del botón
+     svg {
+      transform: translateX(3px);
+      path {
+          stroke: #ce0505; // Color inicial
+      }
+  }
+
+  &:hover {
+      svg {
+
+          path {
+            transition: all 0.5s ease;
+            fill: white;
+              stroke: white; // Cambio de color al pasar el mouse
+          }
+      }
+  } 
+  }
+
+
+  .btn-react{
+    font-family: "Pragati Narrow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: transparent;
+    width: 11rem;
+    border: 2px solid #61dafb;
+    color: #61dafb;
+    padding: 2rem 2rem;
+    border-radius: 4px;
+    box-shadow: 4px 8px 10px #030d29;
+    &:hover{
+      background-color: #61dafb;
+      color: white;
+      transition: all 0.5s ease;
+      transform: scale(1.05);
+      box-shadow: 4px 8px 10px #61dafbab;
+    }
+    &:active{
+      background-color: #61dafb8e;
+      color: white;
+      border: #61dafb8e;
+      cursor: pointer;
+      transition: all 2ms ease;
+      transform: scale(0.95);
+    }
+     // Estilos del SVG dentro del botón
+     svg {
+      transform: translateX(3px);
+     
+  }
+
+  &:hover {
+      svg {
+
+          path {
+            transition: all 0.5s ease;
+            fill: white;
+          }
+      }
+  } 
+  }
+
+  .btn-vuejs{
+    font-family: "Pragati Narrow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: transparent;
+    width: 11rem;
+    border: 2px solid #41b883;
+    padding: 2rem 2rem;
+    border-radius: 4px;
+    box-shadow: 4px 8px 10px #030d29;
+    &:hover{
+      background-color: #41b883;
+      color: white;
+      border: 3px solid #35495e;
+      transition: all 0.5s ease;
+      transform: scale(1.05);
+      box-shadow: 4px 8px 10px #41b883bd;
+    }
+    &:active{
+      background-color: #41b8836a;
+      color: white;
+      border: 3px solid #35495e71;
+      cursor: pointer;
+      transition: all 2ms ease;
+      transform: scale(0.95);
+    }
+     // Estilos del SVG dentro del botón
+     svg {
+      transform: translateX(3px);
+     
+  }
+
+  &:hover {
+      svg {
+
+          path {
+            transition: all 0.5s ease;
+            fill: white;
+          }
+      }
+  } 
+  }
+
+
+  .btn-dotnet{
+    font-family: "Pragati Narrow", sans-serif;
+    font-weight: 700;
+    color: #512bd4;
+    font-style: normal;
+    background-color: transparent;
+    width: 11rem;
+    border: 2px solid #512bd4;
+    padding: 2rem 2rem;
+    border-radius: 4px;
+    box-shadow: 4px 8px 10px #030d29;
+    &:hover{
+      background-color: #512bd4;
+      color: white;
+      border: 3px solid #512bd4;
+      transition: all 0.5s ease;
+      transform: scale(1.05);
+      box-shadow: 4px 8px 10px #502bd4bb;
+    }
+    &:active{
+      background-color: #502bd47e;
+      color: white;
+      border: 3px solid #502bd47e;
+      cursor: pointer;
+      transition: all 2ms ease;
+      transform: scale(0.95);
+    }
+     // Estilos del SVG dentro del botón
+     svg {
+      transform: translateX(3px);
+      path{
+        stroke: #512bd4;
+      }
+     
+  }
+
+  &:hover {
+      svg {
+
+          path {
+            transition: all 0.5s ease;
+            fill: white;
+            stroke: white ;
+          }
+      }
+  } 
+  }
+
+
+
+
 html, body { height: 100%; }
 body { margin: 0;  }
