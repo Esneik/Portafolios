@@ -1,1 +1,11 @@
 <app-navbar></app-navbar>
+<div class="container">
+    <div class="col">
+        <div class="row justify-content-center">
+        <div class="offset-1 col-md-4 mt-3">
+        <h3 class="title ">My personal CV</h3>
+        </div>
+        <iframe class="pdf mt-4" [src]="pdfUrl | safeurl"></iframe>
+    </div>
+    </div>
+</div>

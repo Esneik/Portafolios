@@ -13,6 +13,7 @@ import { CVComponent } from './cv/cv.component';
 import { CertificationsComponent } from './certifications/certifications.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SafeurlPipe } from './pipe/safeurl.pipe';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     CVComponent,
     CertificationsComponent,
     ContactsComponent,
-    NavbarComponent
+    NavbarComponent,
+    SafeurlPipe
   ],
   imports: [
     BrowserModule,
